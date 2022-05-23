@@ -1,0 +1,6 @@
+query getStudents {
+  students {
+    firstName
+    lastName
+  }
+}
