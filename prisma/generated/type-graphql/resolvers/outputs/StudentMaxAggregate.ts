@@ -57,7 +57,7 @@ export class StudentMaxAggregate {
   @TypeGraphQL.Field(_type => AdmissionStatus, {
     nullable: true
   })
-  admissionStatus!: "Recieved" | "InProgress" | "Admitted" | null;
+  admissionStatus!: "Received" | "InProgress" | "Admitted" | null;
 
   @TypeGraphQL.Field(_type => Date, {
     nullable: true

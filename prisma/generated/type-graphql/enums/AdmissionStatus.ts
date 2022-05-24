@@ -1,7 +1,7 @@
 import * as TypeGraphQL from "type-graphql";
 
 export enum AdmissionStatus {
-  Recieved = "Recieved",
+  Received = "Received",
   InProgress = "InProgress",
   Admitted = "Admitted"
 }

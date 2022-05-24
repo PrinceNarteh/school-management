@@ -56,7 +56,7 @@ export class StudentCreateWithoutStudentFeedbackInput {
   @TypeGraphQL.Field(_type => AdmissionStatus, {
     nullable: true
   })
-  admissionStatus?: "Recieved" | "InProgress" | "Admitted" | undefined;
+  admissionStatus?: "Received" | "InProgress" | "Admitted" | undefined;
 
   @TypeGraphQL.Field(_type => Date, {
     nullable: true

@@ -89,7 +89,7 @@ model StaffNotification {
 }
 
 enum AdmissionStatus {
-  Recieved
+  Received
   InProgress
   Admitted
 }
@@ -104,7 +104,7 @@ model Student {
   dateOfBirth        DateTime              @map("date_of_birth")
   profilePic         String                @map("profile_pic")
   password           String
-  admissionStatus    AdmissionStatus       @default(Recieved) @map("admission_status")
+  admissionStatus    AdmissionStatus       @default(Received) @map("admission_status")
   createdAt          DateTime              @default(now()) @map("created_at")
   updatedAt          DateTime              @updatedAt @map("updated_at")
   notifications      StudentNotification[]

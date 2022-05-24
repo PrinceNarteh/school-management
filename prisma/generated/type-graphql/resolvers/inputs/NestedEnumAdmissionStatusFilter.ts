@@ -11,17 +11,17 @@ export class NestedEnumAdmissionStatusFilter {
   @TypeGraphQL.Field(_type => AdmissionStatus, {
     nullable: true
   })
-  equals?: "Recieved" | "InProgress" | "Admitted" | undefined;
+  equals?: "Received" | "InProgress" | "Admitted" | undefined;
 
   @TypeGraphQL.Field(_type => [AdmissionStatus], {
     nullable: true
   })
-  in?: Array<"Recieved" | "InProgress" | "Admitted"> | undefined;
+  in?: Array<"Received" | "InProgress" | "Admitted"> | undefined;
 
   @TypeGraphQL.Field(_type => [AdmissionStatus], {
     nullable: true
   })
-  notIn?: Array<"Recieved" | "InProgress" | "Admitted"> | undefined;
+  notIn?: Array<"Received" | "InProgress" | "Admitted"> | undefined;
 
   @TypeGraphQL.Field(_type => NestedEnumAdmissionStatusFilter, {
     nullable: true

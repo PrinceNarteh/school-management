@@ -11,5 +11,5 @@ export class EnumAdmissionStatusFieldUpdateOperationsInput {
   @TypeGraphQL.Field(_type => AdmissionStatus, {
     nullable: true
   })
-  set?: "Recieved" | "InProgress" | "Admitted" | undefined;
+  set?: "Received" | "InProgress" | "Admitted" | undefined;
 }

@@ -62,7 +62,7 @@ export class StudentGroupBy {
   @TypeGraphQL.Field(_type => AdmissionStatus, {
     nullable: false
   })
-  admissionStatus!: "Recieved" | "InProgress" | "Admitted";
+  admissionStatus!: "Received" | "InProgress" | "Admitted";
 
   @TypeGraphQL.Field(_type => Date, {
     nullable: false
