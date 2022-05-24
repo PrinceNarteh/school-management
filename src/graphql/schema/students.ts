@@ -1,8 +1,8 @@
 import { Field, ID, ObjectType, registerEnumType } from "type-graphql";
 
 enum Gender {
-  Male = "male",
-  Female = "female",
+  MALE,
+  FEMALE,
 }
 
 registerEnumType(Gender, {

@@ -5,6 +5,11 @@ generator client {
   provider = "prisma-client-js"
 }
 
+generator typegraphql {
+  provider = "typegraphql-prisma"
+  output   = "../prisma/generated/type-graphql"
+}
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
@@ -95,6 +100,7 @@ model Student {
   middleName         String?               @map("middle_name")
   lastName           String                @map("last_name")
   gender             Gender
+  email              String
   dateOfBirth        DateTime              @map("date_of_birth")
   profilePic         String                @map("profile_pic")
   password           String

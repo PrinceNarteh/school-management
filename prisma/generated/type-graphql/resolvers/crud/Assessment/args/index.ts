@@ -1,0 +1,12 @@
+export { AggregateAssessmentArgs } from "./AggregateAssessmentArgs";
+export { CreateAssessmentArgs } from "./CreateAssessmentArgs";
+export { CreateManyAssessmentArgs } from "./CreateManyAssessmentArgs";
+export { DeleteAssessmentArgs } from "./DeleteAssessmentArgs";
+export { DeleteManyAssessmentArgs } from "./DeleteManyAssessmentArgs";
+export { FindFirstAssessmentArgs } from "./FindFirstAssessmentArgs";
+export { FindManyAssessmentArgs } from "./FindManyAssessmentArgs";
+export { FindUniqueAssessmentArgs } from "./FindUniqueAssessmentArgs";
+export { GroupByAssessmentArgs } from "./GroupByAssessmentArgs";
+export { UpdateAssessmentArgs } from "./UpdateAssessmentArgs";
+export { UpdateManyAssessmentArgs } from "./UpdateManyAssessmentArgs";
+export { UpsertAssessmentArgs } from "./UpsertAssessmentArgs";

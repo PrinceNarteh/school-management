@@ -1,0 +1,13 @@
+export { AdminCrudResolver } from "./Admin/AdminCrudResolver";
+export { AssessmentCrudResolver } from "./Assessment/AssessmentCrudResolver";
+export { AssessmentReportCrudResolver } from "./AssessmentReport/AssessmentReportCrudResolver";
+export { CourseCrudResolver } from "./Course/CourseCrudResolver";
+export { StaffCrudResolver } from "./Staff/StaffCrudResolver";
+export { StaffFeedbackCrudResolver } from "./StaffFeedback/StaffFeedbackCrudResolver";
+export { StaffLeaveReportCrudResolver } from "./StaffLeaveReport/StaffLeaveReportCrudResolver";
+export { StaffNotificationCrudResolver } from "./StaffNotification/StaffNotificationCrudResolver";
+export { StudentCrudResolver } from "./Student/StudentCrudResolver";
+export { StudentFeedbackCrudResolver } from "./StudentFeedback/StudentFeedbackCrudResolver";
+export { StudentLeaveReportCrudResolver } from "./StudentLeaveReport/StudentLeaveReportCrudResolver";
+export { StudentNotificationCrudResolver } from "./StudentNotification/StudentNotificationCrudResolver";
+export { SubjectCrudResolver } from "./Subject/SubjectCrudResolver";

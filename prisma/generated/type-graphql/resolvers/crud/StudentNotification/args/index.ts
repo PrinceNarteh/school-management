@@ -1,0 +1,12 @@
+export { AggregateStudentNotificationArgs } from "./AggregateStudentNotificationArgs";
+export { CreateManyStudentNotificationArgs } from "./CreateManyStudentNotificationArgs";
+export { CreateStudentNotificationArgs } from "./CreateStudentNotificationArgs";
+export { DeleteManyStudentNotificationArgs } from "./DeleteManyStudentNotificationArgs";
+export { DeleteStudentNotificationArgs } from "./DeleteStudentNotificationArgs";
+export { FindFirstStudentNotificationArgs } from "./FindFirstStudentNotificationArgs";
+export { FindManyStudentNotificationArgs } from "./FindManyStudentNotificationArgs";
+export { FindUniqueStudentNotificationArgs } from "./FindUniqueStudentNotificationArgs";
+export { GroupByStudentNotificationArgs } from "./GroupByStudentNotificationArgs";
+export { UpdateManyStudentNotificationArgs } from "./UpdateManyStudentNotificationArgs";
+export { UpdateStudentNotificationArgs } from "./UpdateStudentNotificationArgs";
+export { UpsertStudentNotificationArgs } from "./UpsertStudentNotificationArgs";
