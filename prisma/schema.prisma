@@ -15,8 +15,8 @@ datasource db {
 }
 
 enum Gender {
-  MALE
-  FEMALE
+  male
+  female
 }
 
 model Admin {

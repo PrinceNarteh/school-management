@@ -5,20 +5,11 @@ export default NextAuth({
   providers: [
     CredentialsProvider({
       credentials: {
-        email: {
-          type: "email",
-          label: "Email Address",
-          placeholder: "john.doe@email.com",
-        },
-        password: {
-          type: "password",
-          label: "Password",
-          placeholder: "Please enter your password",
-        },
+        email: { type: "email" },
+        password: { type: "password" },
       },
       async authorize(credentials) {
         const { email, password } = credentials;
-
         return {};
       },
     }),
