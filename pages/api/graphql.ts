@@ -1,12 +1,13 @@
 import "reflect-metadata";
 import { ApolloServer } from "apollo-server-micro";
 import { NextApiRequest, NextApiResponse } from "next";
+
 import { schema } from "../../src/graphql/schema";
-import prisma from "../../src/lib/prisma";
+import { createContext } from "../../src/graphql/context";
 
 const apolloServer = new ApolloServer({
   schema,
-  context: () => ({ prisma }),
+  context: () => createContext,
 });
 
 const startServer = apolloServer.start();
