@@ -3,11 +3,11 @@ import { ApolloServer } from "apollo-server-micro";
 import { NextApiRequest, NextApiResponse } from "next";
 
 import { schema } from "../../src/graphql/schema";
-import { createContext } from "../../src/graphql/context";
+import { dataSource } from "../../src/lib/data-source";
 
 const apolloServer = new ApolloServer({
   schema,
-  context: () => createContext,
+  context: () => {},
 });
 
 const startServer = apolloServer.start();
@@ -20,6 +20,7 @@ export default async function handler(
     res.end();
     return false;
   }
+  await dataSource();
   await startServer;
   await apolloServer.createHandler({ path: "/api/graphql" })(req, res);
 }
